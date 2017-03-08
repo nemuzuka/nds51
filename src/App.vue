@@ -12,20 +12,20 @@
     </div>
 
     <p class="save"><a href="javascript:void(0)" @click="openModalDialog"><i class="glyphicon glyphicon-plus"></i></a></p>
-    <modal-dialog ref="modalDialog" @StoreTodo="storeTodo"></modal-dialog>
+    <todo-edit-dialog ref="modalDialog" @StoreTodo="storeTodo"></todo-edit-dialog>
 
   </div>
 </template>
 
 <script>
-import TodoList from './components/TodoList'
-import ModalDialog from './components/ModalDialog'
+import TodoList from './components/ToDoList'
+import ToDoEditDialog from './components/ToDoEditDialog'
 
 export default {
   name: 'app',
   components: {
     'todo-list': TodoList,
-    'modal-dialog': ModalDialog
+    'todo-edit-dialog': ToDoEditDialog
   },
   data: function() {
     return {

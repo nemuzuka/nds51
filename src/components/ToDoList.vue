@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import TodoItem from './TodoItem'
+import TodoItem from './ToDoItem'
 
 export default {
   name: 'todo-list',
