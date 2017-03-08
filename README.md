@@ -6,7 +6,7 @@ Vue.jsのコンポーネントの概略を抑えてもらえると思います�
 
 ## Build Setup
 
-node.jsをインストールして、checkout or ダウンロードしてください。
+node.jsをインストールして、本プロジェクトを clone or ダウンロードしてください。
 
 ``` bash
 # install dependencies
