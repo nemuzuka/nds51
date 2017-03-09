@@ -15,8 +15,7 @@
   "dependencies": {
     "dateformat": "^2.0.0",
     "vue": "^2.2.1",
-    "vue-router": "^2.2.0",
-    "vue-cli": "^2.8.1"
+    "vue-router": "^2.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
@@ -80,7 +79,8 @@
     "webpack": "^2.2.1",
     "webpack-dev-middleware": "^1.10.0",
     "webpack-hot-middleware": "^2.16.1",
-    "webpack-merge": "^2.6.1"
+    "webpack-merge": "^2.6.1",
+    "vue-cli": "^2.8.1"
   },
   "engines": {
     "node": ">= 4.0.0",
